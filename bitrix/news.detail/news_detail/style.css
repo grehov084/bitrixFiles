@@ -1,0 +1,115 @@
+div.news-detail img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+.news-date-time
+{
+	color:#486DAA;
+}
+.news-detail-container .content_text{
+	font-size: 120% !important;
+	text-align: left;
+}
+.news-publish-date{
+	color: #009fe3;
+	margin-top: 20px;
+}
+.content_text {
+    margin: 0 0 40px;
+
+}
+.content_text img {
+    vertical-align: bottom;
+}
+.content_text p {
+    margin: 20px 0 18px;
+    color: #737373;
+
+}
+.content_text p b,
+.content_text p strong {
+    font-weight: bold;
+}
+.content_text p i {
+    font-style: italic;
+}
+.content_text p s {
+    text-decoration: line-through;
+}
+.content_text > ul {
+    list-style: disc;
+    margin: 0 0 18px 0;
+    color: #737373;
+
+    overflow: hidden;
+    zoom: 1;
+}
+.content_text > ul li {
+    margin: 0 0 0 20px;
+
+}
+.content_text > ul li ul li {
+    margin: 0 0 0 20px;
+
+}
+.content_text ol {
+    color: #737373;
+    margin-left: 18px;
+    margin-bottom: 18px;
+    list-style: decimal outside none !important;
+}
+.content_text ol li ol {
+    list-style-type: lower-alpha!important;
+}
+.content_text .text_photo {
+    margin: 0 0 30px;
+}
+.content_text .text_photo ul {
+    margin: 0 0 -15px;
+    overflow: hidden;
+    zoom: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+}
+.content_text .text_photo ul li {
+    float: left;
+}
+.content_text .text_photo ul .first {
+    margin: 0;
+}
+.content_text .text_photo ul li img {
+    display: block;
+    width: 460px;
+    height: 340px;
+}
+.content_text .text_photo ul li::marker{
+	content: "";
+}
+.content_text table {
+    width: 100%;
+}
+.content_text table tr td {
+    border: 1px solid #737373;
+    text-align: left;
+    vertical-align: top;
+    padding: 5px;
+}
+.content_text table tr td p {
+    margin: 0;
+}
+.content_text table tr th {
+    font-weight: bold;
+}
+.section-news-photo-material,
+.section-news-material{
+    margin-bottom: 20px;
+    font-style: italic;
+}
+@media(max-width: 900px) {
+	.news-detail-container img {
+		width: 100%;
+	}
+}

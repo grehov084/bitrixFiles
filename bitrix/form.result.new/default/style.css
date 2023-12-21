@@ -1,0 +1,178 @@
+.form-required {
+	color: red;
+	font-size: 32px;
+}
+.regestry_form__dropdown{
+	width: 100%;
+	height: 68px;
+}
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(images/icon_warn.gif);
+}
+.regestry_form__elem, .form-capcha{
+	margin-bottom: 15px;
+}
+.form-capcha{
+	display: flex;
+	flex-direction: column;
+}
+#captcha_img{
+	max-width: 200px;
+}
+.regestry_form-button{
+	width: 300px;
+	height: 50px;
+	color: #fff;
+	background-color: #009fe3;
+	transition: 0.5s;
+}
+.message{
+	display: none;
+}
+.show{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.messgage-background{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+.messgage-form{
+	max-width: 500px;
+	width: 100%;
+	max-height: 300px;
+	height: 100%;;
+	background: #fff;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+.success-button-wrap{
+	width: 100%;
+	max-width: 250px;
+	text-align: center;
+	position: relative;
+    top: 25px;
+	margin: 0 auto;
+}
+.success-ico{
+	text-align: center;
+}
+.success-title{
+	position: relative;
+	bottom: 15px;
+	text-align: center;
+	font-size: 25px;
+	word-wrap: break-word;
+}
+.message-form-wrap{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.close-modal{
+	border: none;
+    background: #009fe3;
+    width: 100%;
+    color: #fff;
+	transition: 0.5s;
+	padding: 8px 0;
+}
+.message-content{
+	position: absolute;
+	max-width: inherit;
+}
+.message-close{
+	position: relative;
+    bottom: 40%;
+    right: -45%;
+	font-size: 25px;
+	cursor: pointer;
+	color: red;
+	transition: 0.5s;
+	z-index: 1;
+}
+#refresh_captcha{
+	visibility: hidden;
+}
+.modal{
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.modal--show{
+	display: block;
+	overflow: scroll;
+	height: 105%;
+}
+.modal__dialog{
+	background-color: #fff;
+	padding: 25px;
+    max-width: 750px;
+    margin: 50px auto;
+	height: max-content;
+}
+.modal-title{
+	font-weight: bold;
+	font-size: 26px;
+}
+.modal__close{
+	color: red;
+	font-size: 23px;
+	cursor: pointer;
+	width: max-content;
+	text-transform: uppercase;
+}
+.modal-title-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.button-container{
+	display: flex;
+	justify-content: center;
+}
+.modal-button{
+	background-color: #009fe3;
+    color: #fff;
+    border: none;
+    padding: 10px 60px;
+	transition: 0.5s;
+}
+@media screen {
+	.regestry_form-button:hover{
+		background-color: #025f86;
+	}
+	.close-modal:hover{
+		background: #0077aa;
+	}
+	.message-close:hover{
+		color: #009fe3;
+	}
+	.modal-button:hover{
+		background-color: #0176a7;
+	}
+}

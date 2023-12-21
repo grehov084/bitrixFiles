@@ -1,0 +1,38 @@
+div.news-detail {
+    word-wrap: break-word;
+}
+
+div.news-detail img.detail_picture {
+    float: left;
+    margin: 0 8px 6px 1px;
+}
+
+.news-date-time {
+    color: #486DAA;
+}
+
+.cafedra {
+    margin-top: 40px !important;
+}
+.cafedra-title{
+	font-size: 23px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.cafedra-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cafedra-staff-list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cafedra-staff-chief{
+	display: flex;
+}
+.cafedra-staff__elem{
+	display: flex;
+	width: 465px;
+	margin-bottom: 20px;
+}

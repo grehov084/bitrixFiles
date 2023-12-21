@@ -1,0 +1,5 @@
+@media(max-width: 1024px){
+	.section-news--events{
+		max-width: 100% !important;
+	}
+}
